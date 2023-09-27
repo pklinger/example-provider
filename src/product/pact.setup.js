@@ -20,6 +20,7 @@ const setupServer = () => {
   return server;
 };
 
+//test
 const stateHandlers = {
   "products exists": () => {
     controller.repository.products = new Map([
